@@ -66,6 +66,7 @@ Diese Anleitung dient nur zu Lern- und Forschungszwecken. Stelle sicher, dass du
 
 
 
+```text
 EFI
 ├── BOOT
 │   └── BOOTx64.efi
@@ -103,11 +104,10 @@ EFI
     │   ├── VirtualSMC.kext
     │   └── WhateverGreen.kext
     │
-    ├── Resources
-    │
     ├── Tools
     │
     └── config.plist ← HIER die generierte Serial eintragen!
+```
 
 ## Installation
 
