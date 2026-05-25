@@ -64,6 +64,8 @@ Diese Anleitung dient nur zu Lern- und Forschungszwecken. Stelle sicher, dass du
 
 > Hinweis: CFG Lock kann mit `ControlMsrE2.efi` oder einem modifizierten BIOS umgangen werden.
 
+
+
 EFI
 ├── BOOT
 │ └── BOOTx64.efi
@@ -76,7 +78,7 @@ EFI
 │ ├── SSDT-BUS.aml
 │ └── SSDT-USBX.aml
 ├── Drivers
-│ ├── fsPlus.efi
+│ ├── HfsPlus.efi
 │ ├── OpenCanopy.efi
 │ ├── OpenRuntime.efi
 │ └── ResetNvramEntry.efi
