@@ -68,40 +68,46 @@ Diese Anleitung dient nur zu Lern- und Forschungszwecken. Stelle sicher, dass du
 
 EFI
 ├── BOOT
-│ └── BOOTx64.efi
+│   └── BOOTx64.efi
 └── OC
-├── ACPI
-│ ├── SSDT-AWAC.aml
-│ ├── SSDT-EC.aml
-│ ├── SSDT-MCHC.aml
-│ ├── SSDT-PLUG.aml
-│ ├── SSDT-BUS.aml
-│ └── SSDT-USBX.aml
-├── Drivers
-│ ├── HfsPlus.efi
-│ ├── OpenCanopy.efi
-│ ├── OpenRuntime.efi
-│ └── ResetNvramEntry.efi
-├── Kexts
-│ ├── AMFIPass.kext
-│ ├── AppleALC.kext
-│ ├── BlueToolFixup.kext
-│ ├── IntelBluetoothFirmware.kext
-│ ├── IntelBTPatcher.kext
-│ ├── IntelMausiEthernet.kext
-│ ├── itlwm.kext
-│ ├── Lilu.kext
-│ ├── NVMeFix.kext
-│ ├── RestrictEvents.kext
-│ ├── SMCProcessor.kext
-│ ├── SMCSuperIO.kext
-│ ├── USBMapDummy.kext
-│ ├── USBToolBox.kext
-│ ├── UTBMap.kext
-│ ├── VirtualSMC.kext
-│ └── WhateverGreen.kext
-├── Tools
-└── config.plist ← HIER die generierte Serial eintragen!
+    ├── ACPI
+    │   ├── SSDT-AWAC.aml
+    │   ├── SSDT-EC.aml
+    │   ├── SSDT-MCHC.aml
+    │   ├── SSDT-PLUG.aml
+    │   ├── SSDT-BUS.aml
+    │   └── SSDT-USBX.aml
+    │
+    ├── Drivers
+    │   ├── HfsPlus.efi
+    │   ├── OpenCanopy.efi
+    │   ├── OpenRuntime.efi
+    │   └── ResetNvramEntry.efi
+    │
+    ├── Kexts
+    │   ├── AMFIPass.kext
+    │   ├── AppleALC.kext
+    │   ├── BlueToolFixup.kext
+    │   ├── IntelBluetoothFirmware.kext
+    │   ├── IntelBTPatcher.kext
+    │   ├── IntelMausiEthernet.kext
+    │   ├── itlwm.kext
+    │   ├── Lilu.kext
+    │   ├── NVMeFix.kext
+    │   ├── RestrictEvents.kext
+    │   ├── SMCProcessor.kext
+    │   ├── SMCSuperIO.kext
+    │   ├── USBMapDummy.kext
+    │   ├── USBToolBox.kext
+    │   ├── UTBMap.kext
+    │   ├── VirtualSMC.kext
+    │   └── WhateverGreen.kext
+    │
+    ├── Resources
+    │
+    ├── Tools
+    │
+    └── config.plist ← HIER die generierte Serial eintragen!
 
 ## Installation
 
