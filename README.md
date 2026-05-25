@@ -64,34 +64,42 @@ Diese Anleitung dient nur zu Lern- und Forschungszwecken. Stelle sicher, dass du
 
 > Hinweis: CFG Lock kann mit `ControlMsrE2.efi` oder einem modifizierten BIOS umgangen werden.
 
----
-
-## 📁 Ordnerstruktur (EFI)
 EFI
 ├── BOOT
 │ └── BOOTx64.efi
 └── OC
 ├── ACPI
-│ ├── SSDT-PLUG.aml
+│ ├── SSDT-AWAC.aml
 │ ├── SSDT-EC.aml
+│ ├── SSDT-MCHC.aml
+│ ├── SSDT-PLUG.aml
+│ ├── SSDT-BUS.aml
 │ └── SSDT-USBX.aml
 ├── Drivers
+│ ├── fsPlus.efi
+│ ├── OpenCanopy.efi
 │ ├── OpenRuntime.efi
-│ ├── HfsPlus.efi
 │ └── ResetNvramEntry.efi
 ├── Kexts
+│ ├── AMFIPass.kext
+│ ├── AppleALC.kext
+│ ├── BlueToolFixup.kext
+│ ├── IntelBluetoothFirmware.kext
+│ ├── IntelBTPatcher.kext
+│ ├── IntelMausiEthernet.kext
+│ ├── itlwm.kext
 │ ├── Lilu.kext
+│ ├── NVMeFix.kext
+│ ├── RestrictEvents.kext
+│ ├── SMCProcessor.kext
+│ ├── SMCSuperIO.kext
+│ ├── USBMapDummy.kext
+│ ├── USBToolBox.kext
+│ ├── UTBMap.kext
 │ ├── VirtualSMC.kext
-│ ├── WhateverGreen.kext
-│ ├── AppleALC.kext (layout-id 11)
-│ ├── IntelMausi.kext (LAN)
-│ └── USBInjectAll.kext
-├── Tools (optional)
+│ └── WhateverGreen.kext
+├── Tools
 └── config.plist ← HIER die generierte Serial eintragen!
-
-text
-
----
 
 ## Installation
 
